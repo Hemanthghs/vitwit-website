@@ -24,6 +24,9 @@ body {
   .nav__menu {
     @apply p-[10px] hidden tablet:flex;
   }
+  .nav__menu__open {
+    @apply tablet:flex-row tablet:static flex flex-col absolute top-14 left-0 bg-white transition-all ease-linear delay-500 transform;
+  }
   .nav__logo {
     @apply tablet:h-[80px] tablet:w-[200px] h-[40px] w-[100px]
   }
