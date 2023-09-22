@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -7,4 +7,29 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  font-family: "Space Grotesk", "sans-serif";
+}
+
+@layer components {
+  /* Navbar styling */
+  .nav__menu__link {
+    @apply text-[#333] text-[18px] leading-6 font-light mr-10 cursor-pointer;
+  }
+  .nav {
+    @apply flex items-center justify-between px-3 py-2 tablet:px-[120px] tablet:py-4;
+  }
+  .nav__menu {
+    @apply p-[10px] hidden tablet:flex;
+  }
+  .nav__logo {
+    @apply tablet:h-[80px] tablet:w-[200px] h-[40px] w-[100px]
+  }
+
+  /* utils */
+  .flex-center {
+    @apply flex justify-center items-center;
+  }
 }

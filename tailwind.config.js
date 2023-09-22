@@ -3,9 +3,11 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     extend: {},
-    fontFamily: {
-      custom: ["Space Grotesk", "sans-serif"],
-    },
+    screens: {
+      'tablet': '980px',
+      'lg': '1100px',
+      'mobile': '450px'
+    }
   },
   plugins: [],
 };
