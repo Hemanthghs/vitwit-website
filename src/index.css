@@ -49,7 +49,7 @@ body {
   }
 
   .topic {
-    @apply  py-1 px-3 rounded-lg lg:py-[15px] lg:rounded-2xl lg:px-7;
+    @apply py-1 px-3 rounded-lg lg:py-[15px] lg:rounded-2xl lg:px-7;
   }
 
   /* Home first container Stats */
@@ -70,19 +70,23 @@ body {
   }
 
   /* Home - Witval and Opensource  */
-  .home__witval, .home__opensource {
+  .home__witval,
+  .home__opensource {
     @apply my-10 tablet:px-[120px] py-8 mobile:py-20 bg-[#FBFCFF] flex justify-center custom-1:justify-between;
   }
 
-  .home__witval h1, .home__opensource h1 {
+  .home__witval h1,
+  .home__opensource h1 {
     @apply p-0 m-0 mb-4 mobile:mb-6 text-[#333] text-[48px] leading-[60px] font-bold;
   }
 
-  .home__witval p, .home__opensource p {
+  .home__witval p,
+  .home__opensource p {
     @apply text-[#333] text-[20px] leading-[28px] font-normal;
   }
 
-  .home__witval__stats, .home__opensource__stats {
+  .home__witval__stats,
+  .home__opensource__stats {
     @apply mt-10 mobile:mt-[60px];
   }
 
@@ -91,11 +95,48 @@ body {
   }
 
   .home__opensource {
-    @apply bg-[#fff] mobile:py-10 mb-0
+    @apply bg-[#fff] mobile:py-10 mb-0;
   }
 
   .home__opensource__stats {
     @apply flex justify-between flex-wrap;
+  }
+
+  .contribution {
+    @apply h-[390px] w-[380px] rounded-2xl p-10;
+    background: linear-gradient(
+      5deg,
+      rgba(255, 255, 255, 0.5) 25.07%,
+      rgba(223, 211, 235, 0.5) 85.94%
+    );
+  }
+
+  .contribution__title {
+    @apply text-[#333] text-[24px] font-bold leading-[30px];
+  }
+
+  .contribution__pr {
+    @apply text-[#333] text-[20px] font-bold leading-[30px] underline my-4;
+  }
+
+  .contribution__desc {
+    @apply text-[#333] text-[18px] font-normal leading-5;
+  }
+
+  .glimpse {
+    @apply flex px-[120px] py-10;
+  }
+
+  .glimpse__head img {
+    @apply w-[356px] h-[222px];
+  }
+
+  .glimpse__head {
+    @apply flex items-center flex-col;
+  }
+
+  .glimpse h1 {
+    @apply text-[#333] text-[75px] font-bold leading-[60px];
   }
 
   /* Stats Card */

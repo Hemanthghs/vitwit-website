@@ -6,6 +6,7 @@ import { stats } from "./utils";
 import CountUp from "react-countup";
 import Witval from "../components/Witval";
 import OpenSource from "../components/OpenSource";
+import OpenSourceGlimpse from "../components/OpenSourceGlimpse";
 
 const Home = () => {
   return (
@@ -65,6 +66,7 @@ const Home = () => {
       </div>
       <Witval />
       <OpenSource />
+      <OpenSourceGlimpse />
     </div>
   );
 };
