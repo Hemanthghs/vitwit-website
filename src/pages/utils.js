@@ -1,7 +1,7 @@
 export const stats = [
   {
     value: 4,
-    name: "Networks at Vitwal",
+    name: "Networks at Witval",
   },
   {
     value: 8,
