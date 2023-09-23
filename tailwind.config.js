@@ -5,7 +5,7 @@ module.exports = {
     extend: {},
     screens: {
       'tablet': '900px',
-      'lg': '1100px',
+      'lg': '1300px',
       'xl': '1500px',
       'mobile': '450px'
     }

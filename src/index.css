@@ -58,15 +58,15 @@ body {
   }
 
   .stat {
-    @apply inline-block mx-3 mb-5 lg:m-0;
+    @apply inline-block mx-3 mb-5 lg:m-0 lg:mt-4;
   }
 
   .stat__value {
-    @apply text-[#333] text-center text-[28px] lg:text-[75px] font-bold lg:leading-[60px] lg:mb-2;
+    @apply text-[#333] text-center text-[28px] tablet:text-[56px] lg:text-[75px] font-bold lg:leading-[60px] tablet:mb-2;
   }
 
   .stat__name {
-    @apply text-[#333] text-center text-[14px] lg:text-[24px] font-normal lg:leading-[48px];
+    @apply text-[#333] text-center text-[14px] tablet:text-[18px] lg:text-[24px] font-normal lg:leading-[48px];
   }
 
   /* utils */
