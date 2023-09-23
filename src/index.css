@@ -33,7 +33,7 @@ body {
 
   /* Home first container */
   .home__first__container {
-    /* @apply h-screen flex flex-col justify-between; */
+    @apply h-screen flex flex-col justify-between;
   }
 
   .home__first__container__1 {
@@ -50,6 +50,23 @@ body {
 
   .topic {
     @apply  py-1 px-3 rounded-lg lg:py-[15px] lg:rounded-2xl lg:px-7;
+  }
+
+  /* Home first container Stats */
+  .home__first__container__stats {
+    @apply tablet:px-[120px] pt-4 flex flex-wrap justify-center lg:justify-between items-center lg:my-10 lg:mb-24;
+  }
+
+  .stat {
+    @apply inline-block mx-3 mb-5 lg:m-0;
+  }
+
+  .stat__value {
+    @apply text-[#333] text-center text-[28px] lg:text-[75px] font-bold lg:leading-[60px] lg:mb-2;
+  }
+
+  .stat__name {
+    @apply text-[#333] text-center text-[14px] lg:text-[24px] font-normal lg:leading-[48px];
   }
 
   /* utils */

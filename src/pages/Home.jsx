@@ -2,6 +2,8 @@ import React from "react";
 import HomeImage from "../assets/HomeImage.png";
 import HomeImage2 from "../assets/HomeImage2.png";
 import Navbar from "../components/Navbar";
+import { stats } from "./utils";
+import CountUp from "react-countup";
 
 const Home = () => {
   return (
@@ -11,8 +13,13 @@ const Home = () => {
         <div className="home__first__container__1">
           <div className="tablet:w-[57%]">
             <h1 className="home__first__container__1__title">
-              <h1 className="home__first__container__1__title inline tablet:block">Blockchain&nbsp;|&nbsp;Cloud&nbsp;</h1>
-              <h1 className="home__first__container__1__title inline tablet:block"> &&nbsp;DevOps</h1>
+              <h1 className="home__first__container__1__title inline tablet:block">
+                Blockchain&nbsp;|&nbsp;Cloud&nbsp;
+              </h1>
+              <h1 className="home__first__container__1__title inline tablet:block">
+                {" "}
+                &&nbsp;DevOps
+              </h1>
             </h1>
             <div className="home__first__container__1__text">
               <p>
@@ -52,9 +59,31 @@ const Home = () => {
             />
           </div>
         </div>
+        <Stats />
       </div>
     </div>
   );
 };
 
 export default Home;
+
+const Stats = () => {
+  return (
+    <div className="home__first__container__stats">
+      {stats.map((stat, index) => (
+        <Stat key={index} value={stat.value} name={stat.name} />
+      ))}
+    </div>
+  );
+};
+
+const Stat = ({ value, name }) => {
+  return (
+    <div className="stat">
+      <div className="stat__value">
+        <CountUp start={0} end={value} duration={2} />+
+      </div>
+      <div className="stat__name">{name}</div>
+    </div>
+  );
+};
