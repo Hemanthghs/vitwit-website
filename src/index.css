@@ -41,15 +41,15 @@ body {
   }
 
   .home__first__container__1__title {
-    @apply inline-block xl:text-[75px] lg:text-[64px] tablet:text-[48px] font-bold text-[#333] xl:leading-[100px] lg:leading-[80px] tablet:leading-[60px];
+    @apply inline-block xl:text-[75px] lg:text-[64px] tablet:text-[48px] text-[24px] font-bold text-[#333] xl:leading-[100px] lg:leading-[80px] tablet:leading-[60px] mt-3 lg:mt-0;
   }
 
   .home__first__container__1__text {
-    @apply text-[24px] leading-[48px] font-medium mt-10;
+    @apply text-[12px] lg:text-[24px] lg:leading-[48px] font-medium mt-5 lg:mt-10;
   }
 
-  .home__first__container__1__text span {
-    /* @apply  */
+  .topic {
+    @apply  py-1 px-3 rounded-lg lg:py-[15px] lg:rounded-2xl lg:px-7;
   }
 
   /* utils */
