@@ -69,6 +69,7 @@ body {
     @apply text-[#333] text-center text-[14px] tablet:text-[18px] lg:text-[24px] font-normal lg:leading-[48px];
   }
 
+  /* Home - Witval and Opensource  */
   .home__witval, .home__opensource {
     @apply my-10 tablet:px-[120px] py-8 mobile:py-20 bg-[#FBFCFF] flex justify-center custom-1:justify-between;
   }
@@ -99,11 +100,11 @@ body {
 
   /* Stats Card */
   .stats__card {
-    @apply inline-block rounded-[16px] pb-2 pr-2 pt-1 pl-1;
+    @apply inline-block rounded-[16px] pb-[10px] pr-[10px] pt-1 pl-1;
   }
 
   .stats__card__content {
-    @apply h-[144px] mobile:h-[186px] flex rounded-[16px] flex-col bg-white justify-center items-start px-7 mobile:px-[40px];
+    @apply h-[144px] mobile:h-[186px] mobile:min-w-[270px] flex rounded-[16px] flex-col bg-white justify-center items-start px-7 mobile:px-[40px];
   }
 
   .stats__card__content__value {

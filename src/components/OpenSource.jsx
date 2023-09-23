@@ -7,7 +7,7 @@ const OpenSource = () => {
     <div className="home__opensource">
       <div className="w-[80%] mobile:w-full">
         <h1>Open&nbsp;Soruce Portfolio</h1>
-        <div className="text-justify mobile:w-[60%]">
+        <div className="text-justify mobile:w-[64%]">
           <p>
             We are primarily working on the Cosmos community and we have our
             contributions to the Ethereum community as well.
