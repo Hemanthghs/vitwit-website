@@ -28,7 +28,7 @@ body {
     @apply tablet:flex-row tablet:static flex flex-col absolute top-14 right-0 bg-white transition-all ease-linear delay-500 transform;
   }
   .nav__logo {
-    @apply tablet:h-[80px] tablet:w-[200px] h-[40px] w-[100px]
+    @apply tablet:h-[80px] tablet:w-[200px] h-[40px] w-[100px];
   }
 
   /* Home first container */
@@ -41,7 +41,15 @@ body {
   }
 
   .home__first__container__1__title {
-    @apply inline-block xl:text-[88px] lg:text-[64px] tablet:text-[48px] font-bold text-[#333] xl:leading-[100px] lg:leading-[80px] tablet:leading-[60px];
+    @apply inline-block xl:text-[75px] lg:text-[64px] tablet:text-[48px] font-bold text-[#333] xl:leading-[100px] lg:leading-[80px] tablet:leading-[60px];
+  }
+
+  .home__first__container__1__text {
+    @apply text-[24px] leading-[48px] font-medium mt-10;
+  }
+
+  .home__first__container__1__text span {
+    /* @apply  */
   }
 
   /* utils */
