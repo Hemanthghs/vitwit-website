@@ -69,24 +69,32 @@ body {
     @apply text-[#333] text-center text-[14px] tablet:text-[18px] lg:text-[24px] font-normal lg:leading-[48px];
   }
 
-  .home__witval {
+  .home__witval, .home__opensource {
     @apply my-10 tablet:px-[120px] py-8 mobile:py-20 bg-[#FBFCFF] flex justify-center custom-1:justify-between;
   }
 
-  .home__witval h1 {
+  .home__witval h1, .home__opensource h1 {
     @apply p-0 m-0 mb-4 mobile:mb-6 text-[#333] text-[48px] leading-[60px] font-bold;
   }
 
-  .home__witval p {
+  .home__witval p, .home__opensource p {
     @apply text-[#333] text-[20px] leading-[28px] font-normal;
   }
 
-  .home__witval__stats {
+  .home__witval__stats, .home__opensource__stats {
     @apply mt-10 mobile:mt-[60px];
   }
 
   .home__witval img {
     @apply h-[368px] w-[429px];
+  }
+
+  .home__opensource {
+    @apply bg-[#fff] mobile:py-10 mb-0
+  }
+
+  .home__opensource__stats {
+    @apply flex justify-between flex-wrap;
   }
 
   /* Stats Card */

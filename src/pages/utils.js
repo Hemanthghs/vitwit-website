@@ -34,3 +34,26 @@ export const witvalStats = [
     bgColor: "#FCECDB",
   },
 ];
+
+export const contributions = [
+  {
+    value: 30,
+    name: "Repos contributed",
+    bgColor: "#E4F1FC",
+  },
+  {
+    value: 200,
+    name: "PRs merged",
+    bgColor: "#F1E3FB",
+  },
+  {
+    value: 10,
+    name: "Features Proposed",
+    bgColor: "#FCECDB",
+  },
+  {
+    value: 100000,
+    name: "Lines of code contributed",
+    bgColor: "#EDD4D6",
+  },
+];

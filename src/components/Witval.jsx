@@ -6,9 +6,9 @@ import StatsCard from "./StatsCard";
 const Witval = () => {
   return (
     <div className="home__witval">
-      <div className="w-[70%]">
+      <div className="w-[80%] mobile:w-full">
         <h1>Witval Validator</h1>
-        <div className="text-justify mobile:w-[90%]">
+        <div className="text-justify mobile:w-[80%]">
           <p>
             We are primarily working on the Cosmos community and we have our
             contributions to the Ethereum community as well.

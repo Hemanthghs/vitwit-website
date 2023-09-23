@@ -5,6 +5,7 @@ import Navbar from "../components/Navbar";
 import { stats } from "./utils";
 import CountUp from "react-countup";
 import Witval from "../components/Witval";
+import OpenSource from "../components/OpenSource";
 
 const Home = () => {
   return (
@@ -63,6 +64,7 @@ const Home = () => {
         <Stats />
       </div>
       <Witval />
+      <OpenSource />
     </div>
   );
 };
