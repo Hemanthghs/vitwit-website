@@ -4,6 +4,7 @@ import HomeImage2 from "../assets/HomeImage2.png";
 import Navbar from "../components/Navbar";
 import { stats } from "./utils";
 import CountUp from "react-countup";
+import Witval from "../components/Witval";
 
 const Home = () => {
   return (
@@ -61,6 +62,7 @@ const Home = () => {
         </div>
         <Stats />
       </div>
+      <Witval />
     </div>
   );
 };
