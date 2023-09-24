@@ -29,7 +29,7 @@ const Validator = () => {
                 </p>
               </div>
             </div>
-            <div className="flex justify-around mt-20">
+            <div className="validator__head__stats">
               <div className="validator__head__stat">
                 <div>
                   <NetworkIcon />

@@ -249,10 +249,10 @@ body {
 
   /* Validator Page  */
   .validator {
-    @apply px-[120px] mt-12 h-full;
+    @apply tablet:px-[120px] w-[80%] m-auto tablet:w-full mt-4 tablet:mt-12 h-full;
   }
   .validator__head {
-    @apply w-full tablet:w-[40%]   h-full;
+    @apply w-full tablet:w-[40%] h-full;
   }
   .validator__head_title {
   }
@@ -260,8 +260,11 @@ body {
     @apply text-[#333] mt-5 text-[24px] font-light leading-8;
   }
 
+  .validator__head__stats {
+    @apply flex justify-around mt-6 mobile:mt-20 flex-col tablet:flex-row;
+  }
   .validator__head__stat {
-    @apply flex flex-col items-center;
+    @apply flex flex-col items-center mb-4 tablet:mb-0;
   }
   .validator__head__stat__value {
     @apply text-center text-[#393F7A] text-[32px] leading-[60px] font-bold;
