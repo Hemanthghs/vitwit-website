@@ -9,7 +9,7 @@ const BlogCard = ({ link = "https://www.google.com", blogImage }) => {
           <div>
             <img src={blogImage} alt="" />
           </div>
-          <div className="px-4">
+          <div className="px-4 mt-2">
             <div className="blog__card__date">
               August 9th 2022 | 5 Minutes read
             </div>

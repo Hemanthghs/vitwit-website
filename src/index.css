@@ -213,7 +213,7 @@ body {
   }
 
   .home__blogs__list {
-    @apply mt-10 grid grid-cols-4 gap-10;
+    @apply mt-10 grid grid-cols-3 gap-10;
   }
 
   .home__blogs__list__2 {
@@ -260,7 +260,7 @@ body {
   }
 
   .footer__copyright {
-    @apply text-center tablet:text-right text-[14px] leading-[14px]
+    @apply text-center tablet:text-right text-[14px] leading-[14px];
   }
 
   /* Stats Card */

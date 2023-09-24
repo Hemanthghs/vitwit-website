@@ -19,12 +19,8 @@ const Blogs = () => {
         </div>
       </div>
       <div className="home__blogs__list">
-        <div className="col-span-2">
+        <div className="lg:col-span-2">
           <BlogCard blogImage={BlogImage1} />
-        </div>
-        <div className="home__blogs__list__2">
-          <BlogCard blogImage={BlogImage2} />
-          <BlogCard blogImage={BlogImage3} />
         </div>
         <div className="home__blogs__list__2">
           <BlogCard blogImage={BlogImage2} />
