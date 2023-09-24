@@ -7,7 +7,7 @@ import BlogImage3 from "../assets/blog3.png";
 
 const Blogs = () => {
   return (
-    <section id="blogs" className="flex-center">
+    <div className="flex-center">
       <div className="home__blogs w-[80%] lg:w-full">
         <div className="home__blogs__head">
           <div className="home__blogs__head__title">
@@ -29,7 +29,7 @@ const Blogs = () => {
           </div>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
