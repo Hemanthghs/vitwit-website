@@ -18,7 +18,7 @@ const Navbar = () => {
           <NavLink to="/validator" className="nav__menu__link" onClick={handleClick}>
             Validator
           </NavLink>
-          <NavLink className="nav__menu__link" onClick={handleClick}>Blogs</NavLink>
+          <a href="/#bg" className="nav__menu__link" onClick={handleClick}>Blogs</a>
           <NavLink to="/contact" className="nav__menu__link mr-0" onClick={handleClick}>
             Contact Us
           </NavLink>

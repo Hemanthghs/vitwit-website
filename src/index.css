@@ -9,6 +9,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Space Grotesk", "sans-serif";
 }
@@ -197,7 +201,7 @@ body {
 
   /* Blogs Section  */
   .home__blogs {
-    @apply px-[120px] py-10;
+    @apply lg:px-[120px] py-10;
   }
 
   .home__blogs__head {
@@ -205,15 +209,15 @@ body {
   }
 
   .home__blogs__head__title {
-    @apply text-[#333] text-[40px] leading-[60px] font-bold;
+    @apply text-[#333] text-[40px] leading-3 mobile:leading-[60px] font-bold;
   }
 
   .home__blogs__head__link {
-    @apply text-[#4F33A3] text-[20px] font-semibold leading-6 underline decoration-2 underline-offset-2 cursor-pointer;
+    @apply text-[#4F33A3] mobile:text-[20px] mobile:font-semibold leading-6 underline mobile:decoration-2 underline-offset-2 cursor-pointer;
   }
 
   .home__blogs__list {
-    @apply mt-10 grid grid-cols-3 gap-10;
+    @apply mt-10 lg:grid grid-cols-3 gap-10;
   }
 
   .home__blogs__list__2 {
@@ -222,7 +226,7 @@ body {
 
   /* Blog Card  */
   .blog__card {
-    @apply bg-[#FAFAFA] rounded-2xl hover:scale-[1.02] ease-out duration-200;
+    @apply bg-[#FAFAFA] rounded-2xl hover:scale-[1.02] ease-out duration-200 mb-6 lg:mb-0;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
   }
 
@@ -231,7 +235,7 @@ body {
   }
 
   .blog__card__date {
-    @apply text-[#333] text-[16px] font-normal leading-10;
+    @apply text-[#333] text-[16px] font-normal leading-5 mobile:leading-10;
   }
 
   .blog__card__title {

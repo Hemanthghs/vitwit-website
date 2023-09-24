@@ -21,7 +21,7 @@ const Footer = () => {
           <SocialIcon image={YoutubeLogo} />
           <SocialIcon image={GmailLogo} />
         </div>
-        <div className="footer__terms">Terms and Services | Privacy policy</div>
+        <div className="footer__terms">Terms and Services | Privacy&nbsp;policy</div>
         <div className="footer__copyright">
           @ 2023 Vitwit. All rights reserved.
         </div>

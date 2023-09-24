@@ -71,7 +71,9 @@ const Home = () => {
       <OpenSource />
       <OpenSourceGlimpse />
       <Partners />
+      <section id="bg">
       <Blogs />
+      </section>
       <Footer />
     </div>
   );
