@@ -71,7 +71,7 @@ const Validator = () => {
       <div className="validator__highlights">
         <h1>Long-term supporter with ecosystem contribution</h1>
         <div className="validator__highlights__list">
-          <div className="highlight__card bg-[#E4F1FC] w-[50%] mb-20">
+          <div className="highlight__card bg-[#E4F1FC] w-[100%] lg:w-[50%] mb-20">
             <HighlightCard
               value={"High-security Validator Node"}
               name={
@@ -79,7 +79,7 @@ const Validator = () => {
               }
             />
           </div>
-          <div className="highlight__card bg-[#F1E3FB] w-[40%] mb-20">
+          <div className="highlight__card bg-[#F1E3FB] w-[100%] lg:w-[40%] mb-20">
             <HighlightCard
               value={"User-friendly Blockchain Infrastructures"}
               name={
@@ -87,7 +87,7 @@ const Validator = () => {
               }
             />
           </div>
-          <div className="highlight__card bg-[#EDD4D6] w-[50%] mb-20">
+          <div className="highlight__card bg-[#EDD4D6] w-[100%] lg:w-[50%] mb-20">
             <HighlightCard
               value={"Governance Participation"}
               name={
