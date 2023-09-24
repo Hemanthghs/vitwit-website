@@ -260,7 +260,7 @@ body {
   }
 
   .footer__terms {
-    @apply mobile:text-center text-[16px] leading-[20px] font-normal mt-4 mb-6;
+    @apply text-center text-[16px] leading-[20px] font-normal mt-4 mb-6;
   }
 
   .footer__copyright {
