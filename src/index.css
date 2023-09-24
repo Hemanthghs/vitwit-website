@@ -242,6 +242,27 @@ body {
     @apply text-[#333] text-[16px] font-normal leading-10;
   }
 
+  /* Footer */
+  .footer {
+    @apply bg-[#393F7A] text-white mobile:px-[120px] py-6 flex justify-between items-center flex-col tablet:flex-row;
+  }
+
+  .footer__socials {
+    @apply w-10 h-10 bg-[#585FA1] rounded-lg;
+  }
+
+  .footer__socials__icon {
+    @apply w-[26.5px] h-[26.5px];
+  }
+
+  .footer__terms {
+    @apply mobile:text-center text-[16px] leading-[20px] font-normal mt-4 mb-6;
+  }
+
+  .footer__copyright {
+    @apply text-center tablet:text-right text-[14px] leading-[14px]
+  }
+
   /* Stats Card */
   .stats__card {
     @apply inline-block rounded-[16px] pb-[10px] pr-[10px] pt-1 pl-1;

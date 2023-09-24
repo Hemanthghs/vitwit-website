@@ -31,7 +31,14 @@ const Stats = () => {
   return (
     <>
       {witvalStats.map((stat, index) => (
-        <div style={{backgroundColor: stat.bgColor, marginRight: index !== 2 ? "30px":""}} className="stats__card mb-3 w-full custom-1:w-fit">
+        <div
+          style={{ backgroundColor: stat.bgColor }}
+          className={
+            index != 2
+              ? `stats__card mr-0 mb-3 w-full custom-1:w-fit tablet:mr-[30px]`
+              : `stats__card mb-3 w-full custom-1:w-fit tablet:mr-0`
+          }
+        >
           <StatsCard
             key={index}
             value={stat.value}

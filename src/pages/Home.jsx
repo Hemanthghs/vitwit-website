@@ -9,6 +9,7 @@ import OpenSource from "../components/OpenSource";
 import OpenSourceGlimpse from "../components/OpenSourceGlimpse";
 import Partners from "../components/Partners";
 import Blogs from "../components/Blogs";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -71,6 +72,7 @@ const Home = () => {
       <OpenSourceGlimpse />
       <Partners />
       <Blogs />
+      <Footer />
     </div>
   );
 };
