@@ -1,9 +1,9 @@
 import React from "react";
 import AkashLogo from "../assets/chain-logos/akash.png"
 
-const Contribution = ({pr}) => {
+const Contribution = ({pr, gradient}) => {
   return (
-    <div className="contribution">
+    <div className={`contribution ${gradient}`}>
       <div>
         <img src={AkashLogo} alt="" />
       </div>

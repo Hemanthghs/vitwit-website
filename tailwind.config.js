@@ -8,7 +8,8 @@ module.exports = {
       'lg': '1300px',
       'xl': '1500px',
       'mobile': '450px',
-      'custom-1': '1400px'
+      'custom-1': '1400px',
+      'custom-2': '1000px'
     }
   },
   plugins: [],

@@ -105,15 +105,10 @@ body {
   /* contribution card  */
   .contribution {
     @apply mobile:h-[390px] mobile:w-[380px] w-[280px] rounded-2xl p-10;
-    background: linear-gradient(
-      5deg,
-      rgba(255, 255, 255, 0.5) 25.07%,
-      rgba(223, 211, 235, 0.5) 85.94%
-    );
   }
 
   .contribution__title {
-    @apply text-[#333] text-[18px] mobile:text-[24px] font-bold mobile:leading-[30px];
+    @apply text-[#333] text-[18px] mobile:text-[24px] font-bold mobile:leading-[30px] text-justify;
   }
 
   .contribution__pr {
@@ -121,7 +116,23 @@ body {
   }
 
   .contribution__desc {
-    @apply text-[#333] text-[18px] font-normal leading-5;
+    @apply text-[#333] text-[18px] font-normal leading-5 text-justify;
+  }
+
+  .contribution__gradient__top {
+    background: linear-gradient(
+      5deg,
+      rgba(255, 255, 255, 0.5) 25.07%,
+      rgba(223, 211, 235, 0.5) 85.94%
+    );
+  }
+
+  .contribution__gradient__bottom {
+    background: linear-gradient(
+      170deg,
+      rgba(255, 255, 255, 0.5) 40.34%,
+      rgba(223, 211, 235, 0.5) 90.45%
+    );
   }
 
   .glimpse {
