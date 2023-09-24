@@ -157,7 +157,7 @@ body {
 
   /* Partners  */
   .home__partners {
-    @apply mobile:px-[120px] pt-10 pb-[60px] bg-[#FBFCFF];
+    @apply tablet:px-[120px] pt-10 pb-[60px] bg-[#FBFCFF] flex flex-col items-center;
   }
 
   .home__partners h1 {
@@ -166,7 +166,7 @@ body {
 
   /* Partner Car  */
   .partner__card {
-    @apply rounded-2xl px-10 w-[370px];
+    @apply rounded-2xl px-10 inline-block;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
   }
 
@@ -183,11 +183,16 @@ body {
   }
 
   .partner__card__content__text {
-    @apply text-[#333] font-[18px] leading-[20px] font-normal my-6;
+    @apply text-[#333] font-[18px] leading-[20px] my-6;
   }
 
   .partner__card__content__year {
-    @apply text-[#333] text-[18px] font-bold leading-[20px]
+    @apply text-[#333] text-[18px] font-bold leading-[20px];
+  }
+
+  /* Partners  */
+  .home__partners__list {
+    @apply mt-10 grid lg:grid-cols-3 xl:grid-cols-4 gap-8;
   }
 
   /* Stats Card */
