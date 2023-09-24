@@ -166,7 +166,7 @@ body {
 
   /* Partner Car  */
   .partner__card {
-    @apply rounded-2xl px-10 inline-block;
+    @apply rounded-2xl px-10 inline-block bg-white;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
   }
 
