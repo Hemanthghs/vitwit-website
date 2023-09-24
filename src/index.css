@@ -34,6 +34,21 @@ body {
   .nav__logo {
     @apply tablet:h-[80px] tablet:w-[200px] h-[40px] w-[100px];
   }
+  .nav__active {
+    @apply font-bold text-[#393F7A];
+  }
+
+  .nav__menu__open {
+    @apply w-full tablet:w-fit;
+  }
+
+  .nav__menu__open .nav__menu__link {
+    @apply py-2 text-center tablet:py-0 mr-0 tablet:mr-10;
+  }
+
+  .nav__menu__link__contact {
+    margin-right: 0 !important;
+  }
 
   /* Home first container */
   .home__first__container {
