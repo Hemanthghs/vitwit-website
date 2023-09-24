@@ -282,6 +282,20 @@ body {
     @apply text-[#333] w-full tablet:w-[60%] py-6 text-[24px] tablet:text-[48px] tablet:leading-[60px] font-bold;
   }
 
+  /* Validator Highlights */
+  .validator__highlights__list {
+    @apply flex flex-col items-end justify-center;
+  }
+  .highlight__card__content {
+    @apply flex rounded-[16px] flex-col bg-white justify-center items-start px-7 mobile:px-10 py-10;
+  }
+  .highlight__card__content__value {
+    @apply mobile:text-[32px] font-bold text-[#333] leading-[40px] mb-3 mobile:mb-6;
+  }
+  .highlight__card__content__name {
+    @apply text-[18px] text-[#333] leading-[20px];
+  }
+
   /* Footer */
   .footer {
     @apply bg-[#393F7A] text-white mobile:px-[120px] py-6 flex justify-between items-center flex-col tablet:flex-row;
@@ -291,7 +305,7 @@ body {
     @apply w-10 h-10 bg-[#585FA1] rounded-lg;
   }
 
-  .footer__socials__icon {  
+  .footer__socials__icon {
     @apply w-[26.5px] h-[26.5px];
   }
 
@@ -304,7 +318,8 @@ body {
   }
 
   /* Stats Card */
-  .stats__card {
+  .stats__card,
+  .highlight__card {
     @apply inline-block rounded-[16px] pb-[10px] pr-[10px] pt-1 pl-1;
   }
 
@@ -334,4 +349,9 @@ body {
   .validator__head {
     width: 100%;
   }
+
+  .valBG {
+    display: none;
+  }
+
 }

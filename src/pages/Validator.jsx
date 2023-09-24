@@ -70,9 +70,58 @@ const Validator = () => {
       </div>
       <div className="validator__highlights">
         <h1>Long-term supporter with ecosystem contribution</h1>
+        <div className="validator__highlights__list">
+          <div className="highlight__card bg-[#E4F1FC] w-[50%] mb-20">
+            <HighlightCard
+              value={"High-security Validator Node"}
+              name={
+                "Witval is securing the partnered networks with its robust, globally-distributed node operation."
+              }
+            />
+          </div>
+          <div className="highlight__card bg-[#F1E3FB] w-[40%] mb-20">
+            <HighlightCard
+              value={"User-friendly Blockchain Infrastructures"}
+              name={
+                "Witval develops & maintains convenient end-user tools such as mintscan block explorer, Cosmostation mobile and web wallet."
+              }
+            />
+          </div>
+          <div className="highlight__card bg-[#EDD4D6] w-[50%] mb-20">
+            <HighlightCard
+              value={"Governance Participation"}
+              name={
+                "Witval actively monitors & votes for on-chain governance proposals to contribute to networks’ decentralization."
+              }
+            />
+          </div>
+          <div
+            style={{
+              backgroundImage: "url(/validator-highlights.png)",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "left center",
+              backgroundSize: "800px 800px",
+              minHeight: "100%",
+              minWidth: "100%",
+              position: "absolute",
+              zIndex: -10,
+              left: "0px"
+            }}
+            className="valBG"
+          ></div>
+        </div>
       </div>
     </div>
   );
 };
 
 export default Validator;
+
+const HighlightCard = ({ value, name }) => {
+  return (
+    <div className="highlight__card__content">
+      <div class="highlight__card__content__value">{value}</div>
+      <div className="highlight__card__content__name">{name}</div>
+    </div>
+  );
+};
