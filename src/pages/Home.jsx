@@ -74,7 +74,6 @@ const Home = () => {
       <section id="blogs">
         <Blogs />
       </section>
-      <Footer />
     </div>
   );
 };

@@ -7,7 +7,7 @@ import BlogImage3 from "../assets/blog3.png";
 
 const Blogs = () => {
   return (
-    <div className="flex-center">
+    <div className="flex-center mobile:mb-10">
       <div className="home__blogs w-[80%] lg:w-full">
         <div className="home__blogs__head">
           <div className="home__blogs__head__title">
