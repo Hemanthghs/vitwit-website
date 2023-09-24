@@ -195,6 +195,23 @@ body {
     @apply mt-10 grid lg:grid-cols-3 xl:grid-cols-4 gap-8;
   }
 
+  /* Blogs Section  */
+  .home__blogs {
+    @apply px-[120px] py-10;
+  }
+
+  .home__blogs__head {
+    @apply flex justify-between items-center;
+  }
+
+  .home__blogs__head__title {
+    @apply text-[#333] text-[40px] leading-[60px] font-bold;
+  }
+
+  .home__blogs__head__link {
+    @apply text-[#4F33A3] text-[20px] font-semibold leading-6 underline decoration-2 underline-offset-2 cursor-pointer;
+  }
+
   /* Stats Card */
   .stats__card {
     @apply inline-block rounded-[16px] pb-[10px] pr-[10px] pt-1 pl-1;

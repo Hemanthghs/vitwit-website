@@ -8,6 +8,7 @@ import Witval from "../components/Witval";
 import OpenSource from "../components/OpenSource";
 import OpenSourceGlimpse from "../components/OpenSourceGlimpse";
 import Partners from "../components/Partners";
+import Blogs from "../components/Blogs";
 
 const Home = () => {
   return (
@@ -69,6 +70,7 @@ const Home = () => {
       <OpenSource />
       <OpenSourceGlimpse />
       <Partners />
+      <Blogs />
     </div>
   );
 };
