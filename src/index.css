@@ -124,7 +124,7 @@ body {
   }
 
   .glimpse {
-    @apply flex px-[120px] py-10;
+    @apply flex tablet:px-[120px] py-10  items-center justify-center flex-col xl:flex-row;
   }
 
   .glimpse__head img {
@@ -132,11 +132,15 @@ body {
   }
 
   .glimpse__head {
-    @apply flex items-center flex-col;
+    @apply xl:w-[50%] flex items-center lg:flex-col flex-col w-[80%] mobile:w-full;
+  }
+
+  .glimpse__contributions {
+    @apply flex justify-center xl:justify-end w-full flex-wrap;
   }
 
   .glimpse h1 {
-    @apply text-[#333] text-[75px] font-bold leading-[60px];
+    @apply text-[#333] text-[48px] tablet:text-[75px] font-bold leading-[60px] tablet:leading-[80px];
   }
 
   /* Stats Card */
