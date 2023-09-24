@@ -6,13 +6,14 @@ import CountUp from "react-countup";
 const Validator = () => {
   return (
     <div>
-      <div className="h-screen flex flex-col justify-between">
+      <div className="tablet:h-screen flex flex-col justify-between">
         <Navbar />
         <div
           style={{
             backgroundImage: "url(/validator-bg.png)",
             backgroundRepeat: "no-repeat",
             backgroundPosition: "right top",
+            backgroundSize: "850px 683px",
           }}
           className="validator"
         >
@@ -65,9 +66,10 @@ const Validator = () => {
               </div>
             </div>
           </div>
-
-          <div></div>
         </div>
+      </div>
+      <div className="validator__highlights">
+        <h1>Long-term supporter with ecosystem contribution</h1>
       </div>
     </div>
   );
