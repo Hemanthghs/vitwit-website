@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useMemo, useState } from "react";
 import VitwitLogo from "../assets/vitwit-logo.png";
 import { NavLink, useLocation } from "react-router-dom";
 import HamburgerIcon from "../assets/HamburgerIcon";
@@ -9,7 +9,7 @@ const Navbar = () => {
   const handleClick = () => setOpen(!open);
   const location = useLocation();
 
-  const path = location.pathname.split("/");
+  const path = useMemo(() => location.pathname.split("/"), [location.pathname]);
 
   const [activePage, setActivePage] = useState([false, false, false, false]);
 

@@ -120,7 +120,7 @@ export default Validator;
 const HighlightCard = ({ value, name }) => {
   return (
     <div className="highlight__card__content">
-      <div class="highlight__card__content__value">{value}</div>
+      <div className="highlight__card__content__value">{value}</div>
       <div className="highlight__card__content__name">{name}</div>
     </div>
   );

@@ -3,13 +3,11 @@ import Validator from "./Validator";
 import Contact from "./Contact";
 import { Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 const Main = () => {
   return (
-    <div>
-      {/* <Navbar /> */}
+    <div className="flex flex-col justify-between h-screen">
       <Routes>
         <Route>
           <Route path="/" element={<Home />} />
