@@ -44,15 +44,16 @@ const Navbar = () => {
           >
             Validator
           </NavLink>
-          <a
-            href="/#blogs"
+          <NavLink
+            to="https://medium.com/vitwit"
             className={
               activePage[2] ? `nav__menu__link nav__active` : `nav__menu__link`
             }
+            target="_blank"
             onClick={handleClick}
           >
             Blogs
-          </a>
+          </NavLink>
           <NavLink
             to="/contact"
             className={
