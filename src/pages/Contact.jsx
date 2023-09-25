@@ -27,7 +27,7 @@ const Contact = () => {
           </div>
           <div className="contact__page__details__info">
             <h3>Email</h3>
-            <p className="mb-4">contact@vitwit.com</p>
+            <p className="mb-1 mobile:mb-4">contact@vitwit.com</p>
             <p>careers@vitwit.com</p>
           </div>
           <div className="contact__page__details__info">

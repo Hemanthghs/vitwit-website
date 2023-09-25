@@ -339,27 +339,27 @@ body {
 
   /* Contact Page */
   .contact__page {
-    @apply mt-6 px-[120px] py-10 flex justify-between;
+    @apply mobile:mt-6 mobile:px-[120px] w-[80%] mobile:w-full m-auto py-10 flex justify-between flex-col tablet:flex-row;
   }
 
   .contact__page__head img {
-    @apply w-[484px] h-[484px];
+    @apply w-[80%] m-auto tablet:m-0;
   }
 
   .contact__page__head h1 {
-    @apply text-[#333] text-[48px] leading-[60px] font-bold;
+    @apply text-[#333] text-3xl mobile:text-[48px] mobile:leading-[60px] font-bold;
   }
 
   .contact__page__details__info {
-    @apply mb-10
+    @apply mb-6 mobile:mb-10
   }
 
   .contact__page__details__info h3 {
-    @apply text-[#333] text-[32px] mb-2 leading-[60px] font-bold
+    @apply text-[#333] text-2xl mobile:text-[32px] mb-2 mobile:leading-[60px] font-bold
   }
 
   .contact__page__details__info p {
-    @apply text-[24px] leading-[30px];
+    @apply text-xl mobile:text-[24px] mobile:leading-[30px];
   }
 
   /* Footer */
