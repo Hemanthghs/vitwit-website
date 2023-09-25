@@ -337,6 +337,31 @@ body {
     @apply text-[#333] text-[24px] leading-6 font-normal;
   }
 
+  /* Contact Page */
+  .contact__page {
+    @apply mt-6 px-[120px] py-10 flex justify-between;
+  }
+
+  .contact__page__head img {
+    @apply w-[484px] h-[484px];
+  }
+
+  .contact__page__head h1 {
+    @apply text-[#333] text-[48px] leading-[60px] font-bold;
+  }
+
+  .contact__page__details__info {
+    @apply mb-10
+  }
+
+  .contact__page__details__info h3 {
+    @apply text-[#333] text-[32px] mb-2 leading-[60px] font-bold
+  }
+
+  .contact__page__details__info p {
+    @apply text-[24px] leading-[30px];
+  }
+
   /* Footer */
   .footer {
     @apply bg-[#393F7A] text-white mobile:px-[120px] py-6 flex justify-between items-center flex-col tablet:flex-row;
@@ -356,6 +381,14 @@ body {
 
   .footer__copyright {
     @apply text-center tablet:text-right text-[14px] leading-[14px];
+  }
+
+  .contact__socials {
+    @apply w-[51px] h-[51px] bg-[#393F7A] rounded-lg;
+  }
+
+  .contact__socials__icon {
+    @apply w-[34px] h-[34px];
   }
 
   /* Stats Card */
