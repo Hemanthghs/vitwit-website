@@ -172,7 +172,7 @@ body {
   }
 
   .glimpse h1 {
-    @apply text-[#333] text-[48px] tablet:text-[75px] font-bold leading-[60px] tablet:leading-[80px];
+    @apply text-[#333] text-[48px] xl:text-[75px] font-bold leading-[60px] xl:leading-[80px];
   }
 
   /* Partners  */
@@ -343,7 +343,7 @@ body {
   }
 
   .contact__page__head img {
-    @apply w-[80%] m-auto tablet:m-0;
+    @apply w-[75%] xl:w-[60%] m-auto tablet:m-0;
   }
 
   .contact__page__head h1 {
