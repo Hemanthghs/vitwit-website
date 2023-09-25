@@ -423,10 +423,6 @@ body {
   .validator__head {
     width: 100%;
   }
-
-  .valBG {
-    display: none;
-  }
 }
 
 @media only screen and (max-width: 1300px) {
