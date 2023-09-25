@@ -7,7 +7,7 @@ import Footer from "../components/Footer";
 
 const Main = () => {
   return (
-    <div className="flex flex-col justify-between h-screen">
+    <div className="flex flex-col justify-between min-h-screen">
       <Routes>
         <Route>
           <Route path="/" element={<Home />} />
