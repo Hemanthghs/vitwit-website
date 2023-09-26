@@ -1,5 +1,5 @@
 import React from "react";
-import HomeImage2 from "../assets/HomeImage2.png";
+import HomeImage from "../assets/HomeImage.png";
 import Navbar from "../components/Navbar";
 import { stats } from "./utils";
 import CountUp from "react-countup";
@@ -7,6 +7,7 @@ import Witval from "../components/Witval";
 import OpenSource from "../components/OpenSource";
 import Partners from "../components/Partners";
 import Blogs from "../components/Blogs";
+import Products from "../components/Products";
 
 const Home = () => {
   return (
@@ -56,8 +57,8 @@ const Home = () => {
           </div>
           <div className="tablet:w-[40%] mt-4 tablet:mt-0 flex-center">
             <img
-              className="w-[75%] tablet:w-[100%]"
-              src={HomeImage2}
+              className="w-[75%] tablet:w-fit"
+              src={HomeImage}
               alt="Image"
             />
           </div>
@@ -66,6 +67,7 @@ const Home = () => {
       </div>
       <Witval />
       <OpenSource />
+      <Products />
       <Partners />
       <section id="blogs">
         <Blogs />

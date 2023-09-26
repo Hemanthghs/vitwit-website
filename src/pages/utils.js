@@ -116,3 +116,18 @@ export const chainsList = [
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCxVti1OIxgrQk9ml4iR3m2o4fPZqj9SIz1akUtentUgHVwlVOmTERhqnM5tPOuNZIe0&usqp=CAU",
   },
 ];
+
+export const products = [
+  {
+    name: "Resolute",
+    description:
+      "Resolute is an advanced spacecraft designed to travel through the multiverse, connecting all Cosmos sovereign chains.",
+    link: "https://resolute.vitwit.com/",
+  },
+  {
+    name: "Aneka",
+    description:
+      "Aneka is a data-driven blockchain explorer from Vitwit for sovereign chains built on Cosmos. Aneka is built for Validator operators, developers, and token holders to understand the data as easily as possible.",
+    link: "https://regen.aneka.io/",
+  },
+];

@@ -6,7 +6,7 @@ import { chainsList } from "./utils";
 
 const Validator = () => {
   const bgImageStyle = {
-    backgroundImage: "url(/validator-highlights.png)",
+    backgroundImage: "url(/validator-page-highlights-bg.png)",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "left center",
     backgroundSize: "800px 800px",
