@@ -124,35 +124,19 @@ body {
 
   /* contribution card  */
   .contribution {
-    @apply w-[100%] rounded-2xl p-10;
+    @apply w-[100%] rounded-2xl p-10 bg-[#CED2E41A];
   }
 
   .contribution__title {
-    @apply text-[#333] text-[18px] mobile:text-[24px] font-bold mobile:leading-[30px] text-justify;
+    @apply text-[#333] text-[14px] mobile:text-[20px] font-bold mobile:leading-[30px] text-justify;
   }
 
   .contribution__pr {
-    @apply text-[#333] text-[20px] font-bold mobile:leading-[30px] underline my-4;
+    @apply text-[#333] inline-block text-[20px] font-light mobile:leading-[30px] underline decoration-1 underline-offset-2 cursor-pointer my-4;
   }
 
   .contribution__desc {
     @apply text-[#333] text-[18px] font-normal leading-5 text-justify;
-  }
-
-  .contribution__gradient__top {
-    background: linear-gradient(
-      5deg,
-      rgba(255, 255, 255, 0.5) 25.07%,
-      rgba(223, 211, 235, 0.5) 85.94%
-    );
-  }
-
-  .contribution__gradient__bottom {
-    background: linear-gradient(
-      170deg,
-      rgba(255, 255, 255, 0.5) 40.34%,
-      rgba(223, 211, 235, 0.5) 90.45%
-    );
   }
 
   .glimpse {
@@ -160,7 +144,7 @@ body {
   }
 
   .glimpse__contributions {
-    @apply grid tablet:grid-cols-2 gap-4;
+    @apply grid tablet:grid-cols-2 gap-6;
   }
 
   /* Partners  */
@@ -356,7 +340,7 @@ body {
   }
 
   .footer__logo {
-    @apply w-[216px]
+    @apply w-[216px];
   }
 
   .footer__socials {

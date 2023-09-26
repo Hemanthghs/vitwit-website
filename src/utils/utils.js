@@ -30,17 +30,17 @@ export const witvalStats = [
   {
     value: 12,
     name: "Number of Networks",
-    bgColor: "#E4F1FC",
+    bgColor: "#B88ED5",
   },
   {
     value: 123123123,
     name: "Total staked amount",
-    bgColor: "#F1E3FB",
+    bgColor: "#B0AFFF",
   },
   {
     value: 1234,
     name: "Number of delegators",
-    bgColor: "#FCECDB",
+    bgColor: "#ABD8FC",
   },
 ];
 
@@ -48,22 +48,22 @@ export const contributions = [
   {
     value: 30,
     name: "Repos contributed",
-    bgColor: "#E4F1FC",
+    bgColor: "#B88ED5",
   },
   {
     value: 200,
     name: "PRs merged",
-    bgColor: "#F1E3FB",
+    bgColor: "#B0AFFF",
   },
   {
     value: 10,
     name: "Features Proposed",
-    bgColor: "#FCECDB",
+    bgColor: "#ABD8FC",
   },
   {
     value: 100000,
     name: "Lines of code contributed",
-    bgColor: "#EDD4D6",
+    bgColor: "#CED2E4",
   },
 ];
 
