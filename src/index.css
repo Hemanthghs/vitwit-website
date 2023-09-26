@@ -200,7 +200,7 @@ body {
 
   /* Partners  */
   .home__partners__list {
-    @apply mt-10 grid lg:grid-cols-3 xl:grid-cols-4 gap-8;
+    @apply mt-10 grid lg:grid-cols-3 xl:grid-cols-3 gap-8;
   }
 
   /* Blogs Section  */
