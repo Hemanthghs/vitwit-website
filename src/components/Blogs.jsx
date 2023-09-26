@@ -4,6 +4,7 @@ import BlogCard from "./BlogCard";
 import BlogImage1 from "../assets/blog1.jpeg";
 import BlogImage2 from "../assets/blog2.png";
 import BlogImage3 from "../assets/blog3.png";
+import { CopyIcon } from "../assets/Icons";
 
 const Blogs = () => {
   return (
@@ -15,7 +16,7 @@ const Blogs = () => {
           </div>
           <div className="home__blogs__head__link">
             <Link target="_blank" to="https://medium.com/vitwit">
-              Read More Blogs
+              <span className="mr-[10px]">Read More Blogs</span><CopyIcon />
             </Link>
           </div>
         </div>

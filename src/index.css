@@ -201,7 +201,8 @@ body {
   }
 
   .home__blogs__head__link,
-  .home__witval__knowMore {
+  .home__witval__knowMore,
+  .contact__page__details__location {
     @apply text-[#393F7A] mobile:text-[20px] mobile:font-medium leading-6 underline mobile:decoration-1 underline-offset-2 cursor-pointer;
   }
 
@@ -337,6 +338,14 @@ body {
 
   .contact__page__details__info p {
     @apply text-[20px] mobile:leading-[28px];
+  }
+
+  .contact__page__details__location__link {
+    @apply flex items-center;
+  }
+
+  .contact__page__details__location {
+    @apply mt-2 inline-block;
   }
 
   /* Footer */

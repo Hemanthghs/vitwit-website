@@ -2,7 +2,8 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import ContactImage from "../assets/contact-image.png";
 import { Link } from "react-router-dom";
-import { socials } from "../utils/utils";
+import { LOCATION_LINK, socials } from "../utils/utils";
+import { LocationIcon } from "../assets/Icons";
 
 const Contact = () => {
   return (
@@ -20,6 +21,16 @@ const Contact = () => {
               Address: Second Floor, Ravi Chambers, Kavuri Hills, Hyderabad,
               Telangana, India 500033.
             </p>
+            <div className="contact__page__details__location">
+              <Link
+                target="_blank"
+                to={LOCATION_LINK}
+                className="contact__page__details__location__link"
+              >
+                <LocationIcon />
+                <span className="ml-1">Google Maps</span>
+              </Link>
+            </div>
           </div>
           <div className="contact__page__details__info">
             <h3>Email</h3>

@@ -28,7 +28,7 @@ const Witval = () => {
             </p>
           </div>
           <div className="home__witval__knowMore">
-            <Link target="_blank" to="https://medium.com/vitwit">
+            <Link to="/validator">
               <span className="mr-[10px]">Know More</span><KnowMoreIcon />
             </Link>
           </div>
