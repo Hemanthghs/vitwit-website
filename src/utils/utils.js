@@ -4,8 +4,7 @@ import TwitterLogo from "../assets/social-icons/twitter.png";
 import YoutubeLogo from "../assets/social-icons/youtube.png";
 import GmailLogo from "../assets/social-icons/gmail.png";
 
-
-export const LOCATION_LINK = "https://maps.app.goo.gl/J1NrYCicPwyRMGCV9"
+export const LOCATION_LINK = "https://maps.app.goo.gl/J1NrYCicPwyRMGCV9";
 
 export const stats = [
   {
@@ -145,7 +144,7 @@ export const socials = [
   {
     logo: GithubLogo,
     link: "https://github.com/vitwit/",
-  },  
+  },
   {
     logo: TwitterLogo,
     link: "https://twitter.com/vitwit_",
@@ -161,5 +160,26 @@ export const socials = [
   {
     logo: GmailLogo,
     link: "mailto:contact@vitwit.com",
+  },
+];
+
+export const mediumArticles = [
+  {
+    title: "Recap of the Vitwit AMA with Matic Network",
+    link: "https://medium.com/vitwit/recap-of-the-vitwit-ama-with-matic-network-e582c339faf8",
+    date: "February 1st 2021 | 9 Minutes read",
+    author: "Murthy Vitwit",
+  },
+  {
+    title: "What is ZK Technology? Why is it so hot in the ETH community?",
+    link: "https://medium.com/vitwit/what-is-zk-technology-why-is-it-so-hot-in-the-eth-community-dc2554e14184",
+    date: "August 9th 2022 | 5 Minutes read",
+    author: "Kaustubh Kapatral",
+  },
+  {
+    title: "Vitwit’s State of Akash Network",
+    link: "https://medium.com/vitwit/vitwits-state-of-akash-network-9bb14854520a",
+    date: "October 5th 2020 | 3 Minutes read",
+    author: "Anilkumar Kammari",
   },
 ];
