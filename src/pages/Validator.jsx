@@ -18,7 +18,7 @@ const Validator = () => {
   };
   return (
     <div>
-      <div className="tablet:h-screen flex flex-col justify-between">
+      <div className="flex flex-col justify-between">
         <Navbar />
         <div
           style={{

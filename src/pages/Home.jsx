@@ -1,15 +1,12 @@
 import React from "react";
-import HomeImage from "../assets/HomeImage.png";
 import HomeImage2 from "../assets/HomeImage2.png";
 import Navbar from "../components/Navbar";
 import { stats } from "./utils";
 import CountUp from "react-countup";
 import Witval from "../components/Witval";
 import OpenSource from "../components/OpenSource";
-import OpenSourceGlimpse from "../components/OpenSourceGlimpse";
 import Partners from "../components/Partners";
 import Blogs from "../components/Blogs";
-import Footer from "../components/Footer";
 
 const Home = () => {
   return (

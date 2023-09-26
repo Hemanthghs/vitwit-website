@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
 
 @tailwind base;
 @tailwind components;
@@ -56,7 +56,7 @@ body {
   }
 
   .home__first__container__1 {
-    @apply tablet:pl-[120px] flex w-full flex-col tablet:flex-row items-center;
+    @apply tablet:mt-[48px] tablet:pl-[120px] flex w-full flex-col tablet:flex-row items-center;
   }
 
   .home__first__container__1__title,
@@ -217,7 +217,7 @@ body {
   }
 
   .home__blogs__head__link {
-    @apply text-[#4F33A3] mobile:text-[20px] mobile:font-semibold leading-6 underline mobile:decoration-2 underline-offset-2 cursor-pointer;
+    @apply text-[#393F7A] mobile:text-[20px] mobile:font-semibold leading-6 underline mobile:decoration-2 underline-offset-2 cursor-pointer;
   }
 
   .home__blogs__list {
@@ -347,7 +347,7 @@ body {
   }
 
   .contact__page__details__info p {
-    @apply text-xl mobile:text-[24px] mobile:leading-[30px];
+    @apply text-[20px] mobile:leading-[28px];
   }
 
   /* Footer */
@@ -414,7 +414,9 @@ body {
 }
 
 @media only screen and (max-width: 1300px) {
-  .valBG {
+  .valBG, .witvalSectionBG {
     display: none;
   }
 }
+
+

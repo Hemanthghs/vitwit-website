@@ -27,8 +27,12 @@ const Contact = () => {
           </div>
           <div className="contact__page__details__info">
             <h3>Email</h3>
-            <p className="mb-1 mobile:mb-4">contact@vitwit.com</p>
-            <p>careers@vitwit.com</p>
+            <p className="mb-1 mobile:mb-4">
+              <Link to="mailto:contact@vitwit.com" target="_blank">contact@vitwit.com</Link>
+            </p>
+            <p>
+              <Link to="mailto:careers@vitwit.com" target="_blank">careers@vitwit.com</Link>
+            </p>
           </div>
           <div className="contact__page__details__info">
             <h3>Community</h3>
@@ -50,7 +54,7 @@ const Contact = () => {
 
 export default Contact;
 
-const SocialIcon = ({ image, link="https://www.google.com" }) => {
+const SocialIcon = ({ image, link = "https://www.google.com" }) => {
   return (
     <div className="contact__socials flex-center">
       <Link to={link} target="_blank">
