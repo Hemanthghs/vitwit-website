@@ -52,7 +52,7 @@ body {
 
   /* Home first container */
   .home__first__container {
-    @apply h-screen flex flex-col justify-between;
+    @apply  flex flex-col justify-between;
   }
 
   .home__first__container__1 {
