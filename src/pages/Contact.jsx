@@ -1,12 +1,8 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import ContactImage from "../assets/contact-image.png";
-import LinkedInLogo from "../assets/social-icons/linkedin.png";
-import GithubLogo from "../assets/social-icons/github.png";
-import TwitterLogo from "../assets/social-icons/twitter.png";
-import YoutubeLogo from "../assets/social-icons/youtube.png";
-import GmailLogo from "../assets/social-icons/gmail.png";
 import { Link } from "react-router-dom";
+import { socials } from "../utils/utils";
 
 const Contact = () => {
   return (
@@ -28,21 +24,23 @@ const Contact = () => {
           <div className="contact__page__details__info">
             <h3>Email</h3>
             <p className="mb-1 mobile:mb-4">
-              <Link to="mailto:contact@vitwit.com" target="_blank">contact@vitwit.com</Link>
+              <Link to="mailto:contact@vitwit.com" target="_blank">
+                contact@vitwit.com
+              </Link>
             </p>
             <p>
-              <Link to="mailto:careers@vitwit.com" target="_blank">careers@vitwit.com</Link>
+              <Link to="mailto:careers@vitwit.com" target="_blank">
+                careers@vitwit.com
+              </Link>
             </p>
           </div>
           <div className="contact__page__details__info">
             <h3>Community</h3>
             <div>
               <div className="flex gap-[15px]">
-                <SocialIcon image={LinkedInLogo} />
-                <SocialIcon image={GithubLogo} />
-                <SocialIcon image={TwitterLogo} />
-                <SocialIcon image={YoutubeLogo} />
-                <SocialIcon image={GmailLogo} />
+                {socials.map((item, index) => (
+                  <SocialIcon key={index} logo={item.logo} link={item.link} />
+                ))}
               </div>
             </div>
           </div>
@@ -54,11 +52,11 @@ const Contact = () => {
 
 export default Contact;
 
-const SocialIcon = ({ image, link = "https://www.google.com" }) => {
+const SocialIcon = ({ logo, link = "https://www.google.com" }) => {
   return (
     <div className="contact__socials flex-center">
       <Link to={link} target="_blank">
-        <img className="contact__socials__icon" src={image} alt="" />
+        <img className="contact__socials__icon" src={logo} alt="" />
       </Link>
     </div>
   );

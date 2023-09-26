@@ -6,6 +6,7 @@ import TwitterLogo from "../assets/social-icons/twitter.png";
 import YoutubeLogo from "../assets/social-icons/youtube.png";
 import GmailLogo from "../assets/social-icons/gmail.png";
 import { Link } from "react-router-dom";
+import { socials } from "../utils/utils";
 
 const Footer = () => {
   return (
@@ -15,11 +16,11 @@ const Footer = () => {
       </div>
       <div>
         <div className="flex justify-between">
-          <SocialIcon image={LinkedInLogo} />
-          <SocialIcon image={GithubLogo} />
-          <SocialIcon image={TwitterLogo} />
-          <SocialIcon image={YoutubeLogo} />
-          <SocialIcon image={GmailLogo} />
+          <SocialIcon image={LinkedInLogo} link={socials[0].link}/>
+          <SocialIcon image={GithubLogo} link={socials[1].link}/>
+          <SocialIcon image={TwitterLogo} link={socials[2].link}/>
+          <SocialIcon image={YoutubeLogo} link={socials[3].link}/>
+          <SocialIcon image={GmailLogo} link={socials[4].link}/>
         </div>
         <div className="footer__terms">Terms and Services | Privacy&nbsp;policy</div>
         <div className="footer__copyright">

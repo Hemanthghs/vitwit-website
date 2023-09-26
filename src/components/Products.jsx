@@ -1,6 +1,6 @@
 import React from "react";
 import ProductCard from "./ProductCard";
-import { products } from "../pages/utils";
+import { products } from "../utils/utils";
 
 const Products = () => {
   const bgImageStyle = {

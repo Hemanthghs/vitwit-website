@@ -1,3 +1,12 @@
+import LinkedInLogo from "../assets/social-icons/linkedin.png";
+import GithubLogo from "../assets/social-icons/github.png";
+import TwitterLogo from "../assets/social-icons/twitter.png";
+import YoutubeLogo from "../assets/social-icons/youtube.png";
+import GmailLogo from "../assets/social-icons/gmail.png";
+
+
+export const LOCATION_LINK = "https://maps.app.goo.gl/J1NrYCicPwyRMGCV9"
+
 export const stats = [
   {
     value: 4,
@@ -129,5 +138,28 @@ export const products = [
     description:
       "Aneka is a data-driven blockchain explorer from Vitwit for sovereign chains built on Cosmos. Aneka is built for Validator operators, developers, and token holders to understand the data as easily as possible.",
     link: "https://regen.aneka.io/",
+  },
+];
+
+export const socials = [
+  {
+    logo: LinkedInLogo,
+    link: "https://www.linkedin.com/company/vitwit/mycompany/",
+  },
+  {
+    logo: GithubLogo,
+    link: "https://github.com/vitwit/",
+  },
+  {
+    logo: TwitterLogo,
+    link: "https://twitter.com/vitwit_",
+  },
+  {
+    logo: YoutubeLogo,
+    link: "https://www.youtube.com/@vitwit8623",
+  },
+  {
+    logo: GmailLogo,
+    link: "mailto:contact@vitwit.com",
   },
 ];

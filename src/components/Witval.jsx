@@ -1,5 +1,5 @@
 import React from "react";
-import { witvalStats } from "../pages/utils";
+import { witvalStats } from "../utils/utils";
 import StatsCard from "./StatsCard";
 
 const Witval = () => {

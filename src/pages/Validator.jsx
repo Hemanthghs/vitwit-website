@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { AssetsIcon, NetworkIcon, StakedIcon } from "../assets/Icons";
 import CountUp from "react-countup";
-import { chainsList } from "./utils";
+import { chainsList } from "../utils/utils";
 
 const Validator = () => {
   const bgImageStyle = {

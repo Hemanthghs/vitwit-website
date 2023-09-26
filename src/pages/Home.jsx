@@ -1,7 +1,7 @@
 import React from "react";
 import HomeImage from "../assets/HomeImage.png";
 import Navbar from "../components/Navbar";
-import { stats } from "./utils";
+import { stats } from "../utils/utils";
 import CountUp from "react-countup";
 import Witval from "../components/Witval";
 import OpenSource from "../components/OpenSource";

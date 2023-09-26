@@ -1,5 +1,5 @@
 import React from "react";
-import { contributions } from "../pages/utils";
+import { contributions } from "../utils/utils";
 import StatsCard from "./StatsCard";
 import OpenSourceGlimpse from "./OpenSourceGlimpse";
 
