@@ -144,7 +144,7 @@ body {
   }
 
   .glimpse__contributions {
-    @apply grid tablet:grid-cols-2 gap-6;
+    @apply grid grid-cols-1 tablet:grid-cols-2 gap-6;
   }
 
   /* Partners  */
