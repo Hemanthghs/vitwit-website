@@ -124,7 +124,7 @@ body {
 
   /* contribution card  */
   .contribution {
-    @apply mobile:h-[390px] mobile:w-[380px] w-[280px] rounded-2xl p-10;
+    @apply w-[100%] rounded-2xl p-10;
   }
 
   .contribution__title {
@@ -156,23 +156,11 @@ body {
   }
 
   .glimpse {
-    @apply flex tablet:px-[120px] py-10  items-center justify-center flex-col xl:flex-row;
-  }
-
-  .glimpse__head img {
-    @apply w-[356px] h-[222px];
-  }
-
-  .glimpse__head {
-    @apply xl:w-[50%] flex items-center lg:flex-col flex-col w-[80%] mobile:w-full;
+    @apply flex py-10  items-center justify-center flex-col xl:flex-row;
   }
 
   .glimpse__contributions {
-    @apply flex justify-center xl:justify-end w-full flex-wrap;
-  }
-
-  .glimpse h1 {
-    @apply text-[#333] text-[48px] xl:text-[75px] font-bold leading-[60px] xl:leading-[80px];
+    @apply grid tablet:grid-cols-2 gap-4;
   }
 
   /* Partners  */
@@ -351,11 +339,11 @@ body {
   }
 
   .contact__page__details__info {
-    @apply mb-6 mobile:mb-10
+    @apply mb-6 mobile:mb-10;
   }
 
   .contact__page__details__info h3 {
-    @apply text-[#333] text-2xl mobile:text-[32px] mb-2 mobile:leading-[60px] font-bold
+    @apply text-[#333] text-2xl mobile:text-[32px] mb-2 mobile:leading-[60px] font-bold;
   }
 
   .contact__page__details__info p {
