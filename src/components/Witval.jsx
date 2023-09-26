@@ -1,6 +1,8 @@
 import React from "react";
 import { witvalStats } from "../utils/utils";
 import StatsCard from "./StatsCard";
+import { Link } from "react-router-dom";
+import { KnowMoreIcon } from "../assets/Icons";
 
 const Witval = () => {
   const bgImageStyle = {
@@ -9,9 +11,7 @@ const Witval = () => {
     backgroundPosition: "right center",
     minHeight: "100%",
     minWidth: "100%",
-    backgroundSize: "400px 400px",
     position: "absolute",
-    right: "-25px",
     zIndex: -10,
     top: "0px",
     zIndex: 1,
@@ -26,6 +26,11 @@ const Witval = () => {
               We are primarily working on the Cosmos community and we have our
               contributions to the Ethereum community as well.
             </p>
+          </div>
+          <div className="home__witval__knowMore">
+            <Link target="_blank" to="https://medium.com/vitwit">
+              <span className="mr-[10px]">Know More</span><KnowMoreIcon />
+            </Link>
           </div>
           <div className="home__witval__stats">
             <Stats />

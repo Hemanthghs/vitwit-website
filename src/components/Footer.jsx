@@ -14,7 +14,7 @@ const Footer = () => {
       <div>
         <img className="footer__logo" src={VitwitLogoLight} alt="" />
       </div>
-      <div>
+      <div className="mt-6 my-4">
         <div className="flex justify-between gap-3">
           <SocialIcon image={GithubLogo} link={socials[0].link} />
           <SocialIcon image={TwitterLogo} link={socials[1].link} />

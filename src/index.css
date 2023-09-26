@@ -107,7 +107,7 @@ body {
 
   .home__witval__stats,
   .home__opensource__stats {
-    @apply mt-10 mobile:mt-[60px];
+    @apply mt-6;
   }
 
   .home__witval img {
@@ -200,8 +200,13 @@ body {
     @apply text-[#333] text-[40px] leading-3 mobile:leading-[60px] font-bold;
   }
 
-  .home__blogs__head__link {
-    @apply text-[#393F7A] mobile:text-[20px] mobile:font-semibold leading-6 underline mobile:decoration-2 underline-offset-2 cursor-pointer;
+  .home__blogs__head__link,
+  .home__witval__knowMore {
+    @apply text-[#393F7A] mobile:text-[20px] mobile:font-medium leading-6 underline mobile:decoration-1 underline-offset-2 cursor-pointer;
+  }
+
+  .home__witval__knowMore {
+    @apply mobile:py-4 mobile:my-6 my-2;
   }
 
   .home__blogs__list {

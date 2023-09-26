@@ -50,3 +50,19 @@ export const StakedIcon = () => {
     </svg>
   );
 };
+
+export const KnowMoreIcon = () => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 32 32"
+      fill="none"
+      className="inline w-[24px] h-[24px] mobile:h-[32px] mobile:w-[32px]"
+    >
+      <path
+        d="M18.6667 24L16.8 22.0667L21.5333 17.3333H5.33334V14.6667H21.5333L16.8 9.93333L18.6667 8L26.6667 16L18.6667 24Z"
+        fill="#393F7A"
+      />
+    </svg>
+  );
+};
