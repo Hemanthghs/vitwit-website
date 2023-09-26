@@ -15,7 +15,6 @@ const Navbar = () => {
 
   useEffect(() => {
     if (path.includes("validator")) setActivePage([false, true, false, false]);
-    else if (path.includes("#blog")) setActivePage([false, false, true, false]);
     else if (path.includes("contact"))
       setActivePage([false, false, false, true]);
     else setActivePage([true, false, false, false]);
@@ -24,7 +23,9 @@ const Navbar = () => {
   return (
     <div>
       <div className="nav">
-        <img className="nav__logo" src={VitwitLogo} alt="Vitwit Logo" />
+        <NavLink to="/" className="cursor-pointer">
+          <img className="nav__logo" src={VitwitLogo} alt="Vitwit Logo" />
+        </NavLink>
         <div className={open ? "nav__menu nav__menu__open" : "nav__menu"}>
           <NavLink
             to="/"

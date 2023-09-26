@@ -95,6 +95,10 @@ body {
     @apply my-10 tablet:px-[120px] py-8 mobile:py-20 bg-[#FBFCFF] flex justify-center custom-1:justify-between;
   }
 
+  .home__opensource {
+    @apply my-1 mobile:my-10;
+  }
+
   .home__witval h1,
   .home__opensource h1 {
     @apply p-0 m-0 mb-4 mobile:mb-6 text-[#333] text-[48px] leading-[60px] font-bold;
@@ -350,7 +354,7 @@ body {
 
   /* Footer */
   .footer {
-    @apply bg-[#393F7A] text-white mobile:px-[120px] py-6 flex justify-between items-center flex-col tablet:flex-row;
+    @apply bg-[#393F7A] text-white mobile:px-[120px] py-6 mobile:py-3 flex justify-between items-center flex-col tablet:flex-row;
   }
 
   .footer__logo {
