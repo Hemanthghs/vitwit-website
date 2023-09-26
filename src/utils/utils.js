@@ -143,16 +143,16 @@ export const products = [
 
 export const socials = [
   {
-    logo: LinkedInLogo,
-    link: "https://www.linkedin.com/company/vitwit/mycompany/",
-  },
-  {
     logo: GithubLogo,
     link: "https://github.com/vitwit/",
-  },
+  },  
   {
     logo: TwitterLogo,
     link: "https://twitter.com/vitwit_",
+  },
+  {
+    logo: LinkedInLogo,
+    link: "https://www.linkedin.com/company/vitwit/mycompany/",
   },
   {
     logo: YoutubeLogo,
