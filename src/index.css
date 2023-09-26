@@ -255,7 +255,7 @@ body {
     @apply tablet:px-[120px] w-[80%] m-auto tablet:w-full mt-4 tablet:mt-12 h-full;
   }
   .validator__head {
-    @apply w-full tablet:w-[55%] h-full;
+    @apply mobile:mb-32 w-full tablet:w-[55%] h-full;
   }
   .validator__head_title {
   }
