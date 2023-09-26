@@ -52,9 +52,9 @@ export default Contact;
 
 const SocialIcon = ({ image, link="https://www.google.com" }) => {
   return (
-    <div className="footer__socials contact__socials flex-center">
+    <div className="contact__socials flex-center">
       <Link to={link} target="_blank">
-        <img className="footer__socials__icon contact__socials__icon" src={image} alt="" />
+        <img className="contact__socials__icon" src={image} alt="" />
       </Link>
     </div>
   );

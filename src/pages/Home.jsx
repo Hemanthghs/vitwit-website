@@ -69,7 +69,6 @@ const Home = () => {
       </div>
       <Witval />
       <OpenSource />
-      <OpenSourceGlimpse />
       <Partners />
       <section id="blogs">
         <Blogs />

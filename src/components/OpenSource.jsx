@@ -1,6 +1,7 @@
 import React from "react";
 import { contributions } from "../pages/utils";
 import StatsCard from "./StatsCard";
+import OpenSourceGlimpse from "./OpenSourceGlimpse";
 
 const OpenSource = () => {
   return (
@@ -16,6 +17,7 @@ const OpenSource = () => {
         <div className="home__opensource__stats">
           <Stats />
         </div>
+        <OpenSourceGlimpse />
       </div>
     </div>
   );
