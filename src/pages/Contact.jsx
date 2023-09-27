@@ -1,11 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "../components/Navbar";
 import ContactImage from "../assets/contact-image.png";
 import { Link } from "react-router-dom";
 import { LOCATION_LINK, socials } from "../utils/utils";
-import { LocationIcon } from "../assets/Icons";
+import { CopyIcon, LocationIcon, TickIcon } from "../assets/Icons";
 
 const Contact = () => {
+  const [showMsg, setShowMsg] = useState(false);
+  console.log(showMsg);
+  function copyToClipBoard() {
+    navigator.clipboard.writeText(LOCATION_LINK);
+    setShowMsg(true);
+    setTimeout(() => setShowMsg(false), [1000]);
+  }
+
   return (
     <div className="contact">
       <Navbar />
@@ -21,15 +29,21 @@ const Contact = () => {
               Address: Second Floor, Ravi Chambers, Kavuri Hills, Hyderabad,
               Telangana, India 500033.
             </p>
-            <div className="contact__page__details__location">
-              <Link
+            <div className="contact__page__details__location ">
+              <div
                 target="_blank"
                 to={LOCATION_LINK}
-                className="contact__page__details__location__link"
+                className="contact__page__details__location__link tooltip"
               >
-                <LocationIcon />
-                <span className="ml-1">Google Maps</span>
-              </Link>
+                <Link className="flex">
+                  <LocationIcon />
+                  <span className="mx-1">Google&nbsp;Maps</span>
+                </Link>
+                <span class="tooltiptext" onClick={() => copyToClipBoard()}>
+                  {!showMsg ? <CopyIcon /> : null}
+                </span>
+                <span>{showMsg ? <TickIcon /> : null}</span>
+              </div>
             </div>
           </div>
           <div className="contact__page__details__info">
