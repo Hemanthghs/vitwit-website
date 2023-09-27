@@ -14,11 +14,11 @@ const Home = () => {
     <div>
       <div className="home__first__container">
         <Navbar />
-        <div className="home__first__container__1">
+        <div className="home__first__container__1 w-[80%] m-auto">
           <div className="tablet:w-[57%]">
             <h1 className="home__first__container__1__title">
               <h1 className="home__first__container__1__title inline tablet:block">
-                Blockchain&nbsp;|&nbsp;Cloud&nbsp;
+                Blockchain&nbsp;| Cloud&nbsp;
               </h1>
               <h1 className="home__first__container__1__title inline tablet:block">
                 {" "}

@@ -32,14 +32,14 @@ export const witvalStats = [
     bgColor: "#B88ED5",
   },
   {
-    value: 123123123,
-    name: "Total staked amount",
-    bgColor: "#B0AFFF",
-  },
-  {
     value: 1234,
     name: "Number of delegators",
     bgColor: "#ABD8FC",
+  },
+  {
+    value: 123123123,
+    name: "Total staked amount",
+    bgColor: "#B0AFFF",
   },
 ];
 
