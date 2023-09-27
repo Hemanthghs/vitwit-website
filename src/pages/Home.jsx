@@ -1,26 +1,24 @@
 import React from "react";
 import HomeImage from "../assets/HomeImage.png";
-import HomeImage2 from "../assets/HomeImage2.png";
 import Navbar from "../components/Navbar";
-import { stats } from "./utils";
+import { stats } from "../utils/utils";
 import CountUp from "react-countup";
 import Witval from "../components/Witval";
 import OpenSource from "../components/OpenSource";
-import OpenSourceGlimpse from "../components/OpenSourceGlimpse";
 import Partners from "../components/Partners";
 import Blogs from "../components/Blogs";
-import Footer from "../components/Footer";
+import Products from "../components/Products";
 
 const Home = () => {
   return (
     <div>
       <div className="home__first__container">
         <Navbar />
-        <div className="home__first__container__1">
+        <div className="home__first__container__1 w-[90%] mobile:w-full m-auto">
           <div className="tablet:w-[57%]">
             <h1 className="home__first__container__1__title">
               <h1 className="home__first__container__1__title inline tablet:block">
-                Blockchain&nbsp;|&nbsp;Cloud&nbsp;
+                Blockchain&nbsp;| Cloud&nbsp;
               </h1>
               <h1 className="home__first__container__1__title inline tablet:block">
                 {" "}
@@ -59,8 +57,8 @@ const Home = () => {
           </div>
           <div className="tablet:w-[40%] mt-4 tablet:mt-0 flex-center">
             <img
-              className="w-[75%] tablet:w-[100%]"
-              src={HomeImage2}
+              className="w-[75%] tablet:w-fit"
+              src={HomeImage}
               alt="Image"
             />
           </div>
@@ -69,6 +67,7 @@ const Home = () => {
       </div>
       <Witval />
       <OpenSource />
+      <Products />
       <Partners />
       <section id="blogs">
         <Blogs />

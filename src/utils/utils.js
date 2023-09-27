@@ -1,3 +1,11 @@
+import LinkedInLogo from "../assets/social-icons/linkedin.png";
+import GithubLogo from "../assets/social-icons/github.png";
+import TwitterLogo from "../assets/social-icons/twitter.png";
+import YoutubeLogo from "../assets/social-icons/youtube.png";
+import GmailLogo from "../assets/social-icons/gmail.png";
+
+export const LOCATION_LINK = "https://maps.app.goo.gl/J1NrYCicPwyRMGCV9";
+
 export const stats = [
   {
     value: 4,
@@ -21,17 +29,17 @@ export const witvalStats = [
   {
     value: 12,
     name: "Number of Networks",
-    bgColor: "#E4F1FC",
-  },
-  {
-    value: 123123123,
-    name: "Total staked amount",
-    bgColor: "#F1E3FB",
+    bgColor: "#B88ED5",
   },
   {
     value: 1234,
     name: "Number of delegators",
-    bgColor: "#FCECDB",
+    bgColor: "#ABD8FC",
+  },
+  {
+    value: 123123123,
+    name: "Total staked amount",
+    bgColor: "#B0AFFF",
   },
 ];
 
@@ -39,22 +47,22 @@ export const contributions = [
   {
     value: 30,
     name: "Repos contributed",
-    bgColor: "#E4F1FC",
+    bgColor: "#B88ED5",
   },
   {
     value: 200,
     name: "PRs merged",
-    bgColor: "#F1E3FB",
+    bgColor: "#B0AFFF",
   },
   {
     value: 10,
     name: "Features Proposed",
-    bgColor: "#FCECDB",
+    bgColor: "#ABD8FC",
   },
   {
     value: 100000,
     name: "Lines of code contributed",
-    bgColor: "#EDD4D6",
+    bgColor: "#CED2E4",
   },
 ];
 
@@ -114,5 +122,64 @@ export const chainsList = [
   {
     name: "Blockx",
     logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJCxVti1OIxgrQk9ml4iR3m2o4fPZqj9SIz1akUtentUgHVwlVOmTERhqnM5tPOuNZIe0&usqp=CAU",
+  },
+];
+
+export const products = [
+  {
+    name: "Resolute",
+    description:
+      "Resolute is an advanced spacecraft designed to travel through the multiverse, connecting all Cosmos sovereign chains.",
+    link: "https://resolute.vitwit.com/",
+  },
+  {
+    name: "Aneka",
+    description:
+      "Aneka is a data-driven blockchain explorer from Vitwit for sovereign chains built on Cosmos. Aneka is built for Validator operators, developers, and token holders to understand the data as easily as possible.",
+    link: "https://regen.aneka.io/",
+  },
+];
+
+export const socials = [
+  {
+    logo: GithubLogo,
+    link: "https://github.com/vitwit/",
+  },
+  {
+    logo: TwitterLogo,
+    link: "https://twitter.com/vitwit_",
+  },
+  {
+    logo: LinkedInLogo,
+    link: "https://www.linkedin.com/company/vitwit/mycompany/",
+  },
+  {
+    logo: YoutubeLogo,
+    link: "https://www.youtube.com/@vitwit8623",
+  },
+  {
+    logo: GmailLogo,
+    link: "mailto:contact@vitwit.com",
+  },
+];
+
+export const mediumArticles = [
+  {
+    title: "Recap of the Vitwit AMA with Matic Network",
+    link: "https://medium.com/vitwit/recap-of-the-vitwit-ama-with-matic-network-e582c339faf8",
+    date: "February 1st 2021 | 9 Minutes read",
+    author: "Murthy Vitwit",
+  },
+  {
+    title: "What is ZK Technology? Why is it so hot in the ETH community?",
+    link: "https://medium.com/vitwit/what-is-zk-technology-why-is-it-so-hot-in-the-eth-community-dc2554e14184",
+    date: "August 9th 2022 | 5 Minutes read",
+    author: "Kaustubh Kapatral",
+  },
+  {
+    title: "Vitwit’s State of Akash Network",
+    link: "https://medium.com/vitwit/vitwits-state-of-akash-network-9bb14854520a",
+    date: "October 5th 2020 | 3 Minutes read",
+    author: "Anilkumar Kammari",
   },
 ];

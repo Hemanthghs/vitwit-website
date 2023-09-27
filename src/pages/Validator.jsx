@@ -2,11 +2,11 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import { AssetsIcon, NetworkIcon, StakedIcon } from "../assets/Icons";
 import CountUp from "react-countup";
-import { chainsList } from "./utils";
+import { chainsList } from "../utils/utils";
 
 const Validator = () => {
   const bgImageStyle = {
-    backgroundImage: "url(/validator-highlights.png)",
+    backgroundImage: "url(/validator-page-highlights-bg.png)",
     backgroundRepeat: "no-repeat",
     backgroundPosition: "left center",
     backgroundSize: "800px 800px",
@@ -18,7 +18,7 @@ const Validator = () => {
   };
   return (
     <div>
-      <div className="tablet:h-screen flex flex-col justify-between">
+      <div className="flex flex-col justify-between">
         <Navbar />
         <div
           style={{
@@ -83,7 +83,7 @@ const Validator = () => {
       <div className="validator__highlights">
         <h1>Long-term supporter with ecosystem contribution</h1>
         <div className="validator__highlights__list">
-          <div className="highlight__card bg-[#E4F1FC] lg:w-[50%] ">
+          <div className="highlight__card bg-[#B88ED5] lg:w-[50%] ">
             <HighlightCard
               value={"High-security Validator Node"}
               name={
@@ -91,7 +91,7 @@ const Validator = () => {
               }
             />
           </div>
-          <div className="highlight__card bg-[#F1E3FB] lg:w-[40%] ">
+          <div className="highlight__card bg-[#B0AFFF] lg:w-[40%] ">
             <HighlightCard
               value={"User-friendly Blockchain Infrastructures"}
               name={
@@ -99,7 +99,7 @@ const Validator = () => {
               }
             />
           </div>
-          <div className="highlight__card bg-[#EDD4D6] lg:w-[50%] ">
+          <div className="highlight__card bg-[#ABD8FC] lg:w-[50%] ">
             <HighlightCard
               value={"Governance Participation"}
               name={

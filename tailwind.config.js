@@ -9,7 +9,8 @@ module.exports = {
       'xl': '1500px',
       'mobile': '450px',
       'custom-1': '1400px',
-      'custom-2': '1000px'
+      'custom-2': '1000px',
+      'custom-3': '1300px'
     }
   },
   plugins: [],
