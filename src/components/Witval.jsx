@@ -6,7 +6,7 @@ import { KnowMoreIcon } from "../assets/Icons";
 
 const Witval = () => {
   return (
-    <div className="relative overflow-hidden">
+    <div className="relative overflow-hidden z-40">
       <div className="home__witval">
         <div className="home__witval__main m-auto mobile:w-full w-[80%]">
           <div className="lg:w-[50%]">

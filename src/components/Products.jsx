@@ -12,7 +12,7 @@ const Products = () => {
     minWidth: "100%",
   };
   return (
-    <div style={bgImageStyle}>
+    <div style={bgImageStyle} className="products__section">
       <div className="products">
         <h1>Our Products</h1>
         <div className="flex mobile:justify-end w-full py-[32px] tablet:py-[134px]">
