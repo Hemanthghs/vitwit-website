@@ -287,11 +287,11 @@ body {
     @apply flex flex-col items-center mb-4 tablet:mb-0;
   }
   .validator__head__stat__value {
-    @apply text-center text-[#393F7A] text-[32px] leading-[60px] font-bold;
+    @apply text-center text-[#393F7A] text-[48px] leading-[60px] font-bold;
   }
 
   .validator__head__stat__name {
-    @apply text-center text-[#333] text-[18px] font-bold leading-6;
+    @apply text-center text-[#333] text-[24px] font-light leading-6;
   }
 
   .validator__highlights {
