@@ -68,11 +68,11 @@ body {
   }
 
   .home__first__container__1__text {
-    @apply text-[14px] lg:text-[24px] lg:leading-[48px] font-medium mt-5 lg:mt-10;
+    @apply text-[14px] lg:text-[24px] lg:leading-[48px] font-normal mt-5 lg:mt-10;
   }
 
   .topic {
-    @apply py-1 px-3 rounded-lg lg:py-[15px] lg:rounded-2xl lg:px-7;
+    @apply py-1 px-3 rounded-lg lg:py-[15px] font-medium lg:rounded-2xl lg:px-7;
   }
 
   /* Home first container Stats */
@@ -109,7 +109,7 @@ body {
 
   .home__witval p,
   .home__opensource p {
-    @apply text-[#333] text-[20px] leading-[28px] font-normal;
+    @apply text-[#333] text-[14px] mobile:text-[20px] mobile:leading-[28px] font-normal;
   }
 
   .home__witval__main {
@@ -159,11 +159,15 @@ body {
   }
 
   .contribution__pr {
-    @apply text-[#333] inline-block text-[20px] font-light mobile:leading-[30px] underline decoration-1 underline-offset-2 cursor-pointer my-4;
+    @apply text-[#333] inline-block text-[14px] mobile:text-[20px] font-light mobile:leading-[30px] underline decoration-1 underline-offset-2 cursor-pointer my-4;
   }
 
   .contribution__desc {
-    @apply text-[#333] text-[18px] font-normal leading-5 text-justify;
+    @apply text-[#333] text-[14px] mobile:text-[18px] font-normal leading-5;
+  }
+
+  .contribution img {
+    @apply h-[70px] w-[70px];
   }
 
   .glimpse {
@@ -198,11 +202,11 @@ body {
   }
 
   .partner__card__content__name {
-    @apply ml-4 text-[#333] text-[38px] font-bold leading-8;
+    @apply ml-4 text-[#333] text-[32px] mobile:text-[38px] font-bold leading-8;
   }
 
   .partner__card__content__text {
-    @apply text-[#333] font-[18px] leading-[20px] my-6;
+    @apply text-[#333] text-[14px] mobile:text-[18px] leading-[20px] my-6;
   }
 
   .partner__card__content__year {
@@ -272,7 +276,7 @@ body {
     @apply tablet:px-[120px] w-[80%] m-auto tablet:w-full mt-4 tablet:mt-12 h-full;
   }
   .validator__head {
-    @apply mobile:mb-32 w-full tablet:w-[55%] h-full;
+    @apply mobile:mb-32 w-full tablet:w-[65%] h-full;
   }
   .validator__head_title {
   }
@@ -281,7 +285,7 @@ body {
   }
 
   .validator__head__stats {
-    @apply flex justify-around mt-6 mobile:mt-20 flex-col tablet:flex-row;
+    @apply flex justify-between mt-6 mobile:mt-20 flex-col tablet:flex-row;
   }
   .validator__head__stat {
     @apply flex flex-col items-center mb-4 tablet:mb-0;
@@ -414,7 +418,7 @@ body {
   }
 
   .products h1 {
-    @apply tablet:w-full tablet:absolute top-[54px] left-[120px] max-w-[224px] text-[#fff] leading-[60px] text-[48px] font-bold;
+    @apply tablet:w-full tablet:absolute top-[54px] left-[120px] max-w-[224px] text-[#fff] pt-5 leading-[60px] text-[48px] font-bold;
   }
 
   .product__card {
@@ -429,7 +433,7 @@ body {
   }
 
   .product__card p {
-    @apply text-[#fff] text-[20px] leading-6;
+    @apply text-[#fff] text-[14px] mobile:text-[20px] mobile:leading-6;
   }
 
   /* Stats Card */

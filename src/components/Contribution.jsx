@@ -1,11 +1,11 @@
 import React from "react";
 import AkashLogo from "../assets/chain-logos/akash.png"
 
-const Contribution = ({pr, gradient}) => {
+const Contribution = ({pr, gradient, logo}) => {
   return (
     <div className={`contribution ${gradient}`}>
       <div>
-        <img src={AkashLogo} alt="" />
+        <img src={logo} alt="" />
       </div>
       <div className="contribution__title">Title should not be more than this place holder</div>
       <div className="contribution__pr">PR #{pr}</div>
