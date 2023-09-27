@@ -1,12 +1,12 @@
 import React from "react";
 import AkashImage from "../assets/chain-logos/akash.png";
 
-const PartnerCard = () => {
+const PartnerCard = ({logo}) => {
   return (
     <div className="partner__card">
       <div className="partner__card__content">
         <div className="flex items-center">
-          <img src={AkashImage} alt="" />
+          <img src={logo} alt="" />
           <span className="partner__card__content__name">Akash</span>
         </div>
         <div className="partner__card__content__text">

@@ -26,16 +26,12 @@ const Contact = () => {
           <div className="contact__page__details__info">
             <h3>Address</h3>
             <p>
-              Address: Second Floor, Ravi Chambers, Kavuri Hills, Hyderabad,
-              Telangana, India 500033.
+              Second Floor, Ravi Chambers, Kavuri Hills, Hyderabad, Telangana,
+              India 500033.
             </p>
             <div className="contact__page__details__location ">
-              <div
-                target="_blank"
-                to={LOCATION_LINK}
-                className="contact__page__details__location__link tooltip"
-              >
-                <Link className="flex">
+              <div className="contact__page__details__location__link tooltip">
+                <Link target="_blank" to={LOCATION_LINK} className="flex">
                   <LocationIcon />
                   <span className="mx-1">Google&nbsp;Maps</span>
                 </Link>

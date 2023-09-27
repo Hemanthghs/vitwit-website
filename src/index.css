@@ -142,11 +142,23 @@ body {
   }
 
   .home__opensource__stats {
-    @apply grid lg:grid-rows-2 gap-8;
+    @apply grid lg:grid-cols-2 gap-8;
   }
 
-  .home__opensource__stats__row__1 {
-    @apply grid lg:grid-cols-3 gap-8;
+  .home__opensource__main {
+    @apply flex justify-between items-center;
+  }
+
+  .home__opensource__main__content {
+    @apply lg:w-[50%];
+  }
+
+  .home__opensource__main__img {
+    @apply w-[35%]
+  }
+
+  .home__opensource__main img {
+    @apply hidden lg:inline-block w-[];
   }
 
   /* contribution card  */
@@ -405,11 +417,11 @@ body {
   }
 
   .contact__socials {
-    @apply w-[50px] h-[50px] bg-[#393F7A] rounded-lg;
+    @apply mobile:p-0 w-[40px] h-[40px] mobile:w-[50px] mobile:h-[50px] bg-[#393F7A] rounded-lg;
   }
 
   .contact__socials__icon {
-    @apply w-[100%] h-[28px] hover:scale-[1.1] hover:opacity-95 transition-all ease-in delay-75 transform;
+    @apply w-[100%] h-[18px] mobile:h-[28px] hover:scale-[1.1] hover:opacity-95 transition-all ease-in delay-75 transform;
   }
 
   /* Products Sections */
