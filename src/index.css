@@ -364,7 +364,7 @@ body {
   }
 
   .contact__page__head img {
-    @apply w-[75%] xl:w-[60%] m-auto tablet:m-0;
+    @apply w-[70%] xl:w-[60%] 2xl:w-[55%] m-auto tablet:m-0;
   }
 
   .contact__page__head h1 {
