@@ -8,7 +8,7 @@ const Witval = () => {
   return (
     <div className="relative overflow-hidden">
       <div className="home__witval">
-        <div className="home__witval__main m-auto w-[80%]">
+        <div className="home__witval__main m-auto mobile:w-full w-[80%]">
           <div className="lg:w-[50%]">
             <h1>Witval Validator</h1>
             <div className="">

@@ -4,7 +4,7 @@ import BlogCard from "./BlogCard";
 import BlogImage1 from "../assets/blog1.jpeg";
 import BlogImage2 from "../assets/blog2.png";
 import BlogImage3 from "../assets/blog3.png";
-import { CopyIcon } from "../assets/Icons";
+import { LinkIcon } from "../assets/Icons";
 import { mediumArticles } from "../utils/utils";
 
 const Blogs = () => {
@@ -18,7 +18,7 @@ const Blogs = () => {
           <div className="home__blogs__head__link">
             <Link target="_blank" to="https://medium.com/vitwit">
               <span className="mr-[10px]">Read More Blogs</span>
-              <CopyIcon />
+              <LinkIcon />
             </Link>
           </div>
         </div>

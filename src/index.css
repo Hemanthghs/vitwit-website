@@ -372,7 +372,11 @@ body {
   }
 
   .contact__page__details__location {
-    @apply mt-2 inline-block;
+    @apply mt-2 flex;
+  }
+
+  .copy__icon {
+    @apply hidden mobile:inline;
   }
 
   /* Footer */
@@ -471,4 +475,32 @@ body {
   .witvalSectionBG {
     display: none;
   }
+}
+
+.tooltip {
+  position: relative;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  color: #333;
+  position: absolute;
+  z-index: 1;
+  right: -24px;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip .tooltiptext::after {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
 }
