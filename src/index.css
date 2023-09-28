@@ -296,6 +296,10 @@ body {
     @apply text-[#333] mt-5 text-[24px] font-light leading-8;
   }
 
+  .validator__head__bg {
+    @apply w-full overflow-hidden;
+  }
+
   .validator__head__stats {
     @apply flex justify-between mt-6 mobile:mt-20 flex-col tablet:flex-row;
   }
@@ -501,8 +505,9 @@ body {
 
 @media only screen and (max-width: 1300px) {
   .valBG,
-  .witvalSectionBG {
-    display: none;
+  .witvalSectionBG,
+  .validator__head__bg {
+    display: none !important;
   }
 }
 

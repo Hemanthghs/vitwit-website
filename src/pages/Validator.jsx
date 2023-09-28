@@ -21,15 +21,7 @@ const Validator = () => {
     <div>
       <div className="flex flex-col justify-between">
         <Navbar />
-        <div
-          style={{
-            backgroundImage: "url(/validator-bg.png)",
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "right top",
-            backgroundSize: "850px 683px",
-          }}
-          className="validator"
-        >
+        <div className="validator">
           <div className="validator__head">
             <div>
               <h1 className="validator__head_title">
@@ -79,6 +71,21 @@ const Validator = () => {
               </div>
             </div>
           </div>
+          <div
+            style={{
+              backgroundImage: "url(/validator-bg.png)",
+              backgroundRepeat: "no-repeat",
+              backgroundPosition: "right top",
+              backgroundSize: "605px 586px",
+              minHeight: "100%",
+              minWidth: "100%",
+              position: "absolute",
+              top: "150px",
+              zIndex: -10,
+              right: "0px",
+            }}
+            className="validator__head__bg"
+          ></div>
         </div>
       </div>
       <div className="validator__highlights">
@@ -133,7 +140,11 @@ const SupportedNetworks = () => {
       <h1>Networks we support</h1>
       <div className="validator__networks__list">
         {chainsList.map((chain, index) => (
-          <Link to={chain.link} target="_blank" className="validator__networks__link">
+          <Link
+            to={chain.link}
+            target="_blank"
+            className="validator__networks__link"
+          >
             <div className="validator__networks__list__item" key={index}>
               <img src={chain.logo} alt="" />
               <h3>{chain.name}</h3>
