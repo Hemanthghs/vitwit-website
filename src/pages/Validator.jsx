@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import { AssetsIcon, NetworkIcon, StakedIcon } from "../assets/Icons";
 import CountUp from "react-countup";
 import { chainsList } from "../utils/utils";
+import { Link } from "react-router-dom";
 
 const Validator = () => {
   const bgImageStyle = {
@@ -132,10 +133,12 @@ const SupportedNetworks = () => {
       <h1>Networks we support</h1>
       <div className="validator__networks__list">
         {chainsList.map((chain, index) => (
-          <div className="validator__networks__list__item" key={index}>
-            <img src={chain.logo} alt="" />
-            <h3>{chain.name}</h3>
-          </div>
+          <Link to={chain.link} target="_blank" className="validator__networks__link">
+            <div className="validator__networks__list__item" key={index}>
+              <img src={chain.logo} alt="" />
+              <h3>{chain.name}</h3>
+            </div>
+          </Link>
         ))}
       </div>
     </div>

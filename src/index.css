@@ -349,6 +349,10 @@ body {
     @apply w-20 h-20 mb-4;
   }
 
+  .validator__networks__link {
+    @apply hover:scale-[1.05] ease-out duration-200;
+  }
+
   .validator__networks__list__item {
     @apply p-4 bg-[#FBFCFF] rounded-2xl flex flex-col items-center;
     box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.1);
